@@ -17,6 +17,14 @@ At the time of publishing only Floor 1 has been created.
 The terminal was build in Twine (https://twinery.org/), runs in a browser and is easy to alter.
 All passwords for the various network locations are declared in the 'Boot Sequence' and can be changed freely.
 
+Password Reception: 1234
+Password Intranet Router: 3oKJjnDu
+Password Admin: ILikeCats95
+Password Security: LWvJt8qZ
+Password Logistics: Sadie1412
+Password Monarch Trap: Monarch
+Password Life Support: e2vBR4kA
+
 Pressing "C" while running the 'Boot Sequence' page will skip to the 'Settings' page in which a different color scheme can be chosen.
 
 The retro terminal displays texts at a rate of 10ms per character to create a typewriter appearance
