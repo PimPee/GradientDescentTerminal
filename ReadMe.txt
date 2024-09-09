@@ -7,6 +7,11 @@ https://github.com/krmaxwell/alcor
 Thanks to iason-pap for the many texts added to the terminal for flavor.
 https://github.com/iason-pap/gradient-descent-terminal-files
 
+Download 'Floor 1.html' and 'Floor 1.png' to the same map on your computer and run 'Floor 1.html' to start the Terminal
+
+A Network chart following the rules of the Hackers Handbook has been added as a powerpoint file.
+https://www.tuesdayknightgames.com/products/the-hackers-handbook-1
+
 At the time of publishing only Floor 1 has been created.
 
 The terminal was build in Twine (https://twinery.org/), runs in a browser and is easy to alter.
@@ -25,7 +30,4 @@ Be aware that changes here are not saved when closing the file.
 
 For the 'Maps' page to display an image, an image named 'Floor 1.png' needs to be placed in the same map as the Terminal file is run from.
 A map representing Floor 1 before the take-over by Monarch is included.
-
-A Network chart following the rules of the Hackers Handbook has been added as a powerpoint file.
-https://www.tuesdayknightgames.com/products/the-hackers-handbook-1
 
