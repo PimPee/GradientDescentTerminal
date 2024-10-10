@@ -1365,7 +1365,7 @@ Carter: Talk soon, Emma. Take care.
 
                 // Check if the entered password matches the Twine variable $pass_admin
                 if (enteredPassword === State.variables.pass_intranet) {
-                    Engine.play(&#39;Intranet Router&#39;);
+                    Engine.play(&#39;Floor 1 Intranet Router&#39;);
                 } else {
                     // Increment attempts only if the password is incorrect
                     State.variables.intranet_attempts = (State.variables.intranet_attempts || 0) + 1;
@@ -1382,7 +1382,7 @@ Carter: Talk soon, Emma. Take care.
             }
         } else if (event.ctrlKey &amp;&amp; event.which === 88) { // 88 = Ctrl + X
             // Navigate to &#39;Reception&#39; passage
-            Engine.play(&#39;Intranet Router&#39;);
+            Engine.play(&#39;Floor 1 Intranet Router&#39;);
         }
     });
     &lt;&lt;/script&gt;&gt;
