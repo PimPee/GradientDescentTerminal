@@ -20,6 +20,7 @@ One section contains all the rooms in The Deep, using different names. The inclu
 
 The terminal was build in Twine (https://twinery.org/), runs in a browser and is easy to alter.
 All passwords for the various network locations are declared in the 'Boot Sequence' of each section and can be changed freely.
+Additionally, Password.txt contains all the passwords used on the various terminals.
 
 The retro terminal displays texts at a rate of 10ms per character to create a typewriter appearance
 By pressing "Ctrl" this is skipped and the page is displayed at once.
