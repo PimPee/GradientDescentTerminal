@@ -104,7 +104,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="Gradient Descent" startnode="43" creator="Twine" creator-version="2.9.2" format="SugarCube" format-version="2.37.3" ifid="0615CC74-BF5C-498D-A42F-E8FBFDE54781" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* Import better font */
+	<tw-storydata name="Gradient Descent" startnode="43" creator="Twine" creator-version="2.9.2" format="SugarCube" format-version="2.37.3" ifid="0615CC74-BF5C-498D-A42F-E8FBFDE54781" options="" tags="" zoom="0.3" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* Import better font */
 @import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
 
 /* Various variables */
@@ -2137,7 +2137,35 @@ If you wish it to be longer to hand over the controls to a player, adjust the du
 
 &lt;/div&gt;
 
+&lt;script&gt;
+  // Function to load passwords from a local text file in the same directory as the .html file
+  function loadPasswords() {
+    return fetch(&#39;Passwords.txt&#39;)  // Only the filename is needed since it&#39;s in the same directory
+      .then(response =&gt; {
+        if (!response.ok) {
+          throw new Error(&#39;Network response was not ok&#39;);
+        }
+        return response.text();
+      })
+      .then(data =&gt; {
+        // Assume the data is formatted as key=value pairs per line
+        const lines = data.split(&#39;\n&#39;);
+        lines.forEach(line =&gt; {
+          const [key, value] = line.split(&#39;=&#39;);
+          // Dynamically set the variables in SugarCube using the key-value pairs
+          if (key &amp;&amp; value) {
+            State.variables[key.trim()] = value.trim();
+          }
+        });
+      })
+      .catch(error =&gt; {
+        console.error(&#39;Error loading passwords:&#39;, error);
+      });
+  }
 
+  // Call the function to load passwords when the story starts
+  loadPasswords();
+&lt;/script&gt;
 
 </tw-passagedata><tw-passagedata pid="44" name="Boot Sequence Floor 2" tags="" position="3050,1900" size="100,100"> &lt;&lt;set $LMG1 to &quot;NON-CHOSEN&quot;&gt;&gt;
  &lt;&lt;set $LMG2 to &quot;NON-CHOSEN&quot;&gt;&gt;
