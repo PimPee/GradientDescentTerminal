@@ -7,8 +7,10 @@ https://github.com/krmaxwell/alcor
 Thanks to iason-pap for the many texts added to the terminal for flavor.
 https://github.com/iason-pap/gradient-descent-terminal-files
 
-Download 'Gradient Descent Terminals.html' and the .png files to the same map on your computer and run 'Gradient Descent Terminals.html' to start.
+Download 'index.html' and the .png files to the same map on your computer and run 'index.html' to start.
 If you want to use different pictures than the ones added, replace the original .png with another one with the same name.
+
+Alternatively the terminal can be run online through https://pimpee.github.io/GradientDescentTerminal/
 
 Currently 14 terminals that are found in The Deep are included.
 More may be added in the future.
