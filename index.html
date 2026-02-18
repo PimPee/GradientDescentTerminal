@@ -1850,7 +1850,7 @@ LIFE SUPPORT: &lt;&lt;textbox &quot;$pass_lifesupport&quot; $pass_lifesupport&gt
 
                 // Check if the entered password matches the Twine variable $pass_admin
                 if (enteredPassword === State.variables.pass_lifesupport) {
-                    Engine.play(&#39;Life Support Hub&#39;);
+                    Engine.play(&#39;Floor 1 Life Support Hub&#39;);
                 } else {
                     // Increment attempts only if the password is incorrect
                     State.variables.lifesupport_attempts = (State.variables.lifesupport_attempts || 0) + 1;
@@ -1867,7 +1867,7 @@ LIFE SUPPORT: &lt;&lt;textbox &quot;$pass_lifesupport&quot; $pass_lifesupport&gt
             }
         } else if (event.ctrlKey &amp;&amp; event.which === 88) { // 88 = Ctrl + X
             // Navigate to &#39;Reception&#39; passage
-            Engine.play(&#39;Life Support Hub&#39;);
+            Engine.play(&#39;Floor 1 Life Support Hub&#39;);
         }
     });
     &lt;&lt;/script&gt;&gt;
